@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="KeyChain, Aksesoris,">
+  <link rel="shortcut icon" href="./assets/images/lainnya/logo.png" type="icon">
+  <meta property="og:title" content="Website Resmi ArchovvShop">
+  <meta property="og:description" content="Temukan KeyChain dan Aksesorismu di ArchovvShop">
+  <meta property="og:image" itemprop="image" content="https://github.com/Ilyaa-OMG/UMKM/blob/main/assets/images/about/toko1.jpg?raw=true">
+  <meta property="og:type" content="website" />
+
+  <title>demofestivalantasari24</title>
+
+  <!-- Bootstrap -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="bootstrap-5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap-5.3.2/dist/css/bootstrap.css">
+  <!-- JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <!-- Font Google -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <!-- AOS Animate -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <!-- Swiper CSS -->
+  <!-- <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.6/swiper-bundle.min.css">
+  <!-- SweetAlert2 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7/dist/sweetalert2.min.css">
+  <!-- My CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Custom CSS (SASS) -->
+  <link rel="stylesheet" href="./assets/css/style-navbar.css">
+  <link rel="stylesheet" href="./assets/css/style-about.css">
+  <link rel="stylesheet" href="./assets/css/style-service.css">
+  <link rel="stylesheet" href="./assets/css/style-product.css">
+  <link rel="stylesheet" href="./assets/css/style-testimoni.css">
+  <link rel="stylesheet" href="./assets/css/footer.css">
+  <link rel="stylesheet" href="./assets/css/style-faq.css">
+  <link rel="stylesheet" href="./assets/css/style-hero.css">
+</head>
+
+<body>
+  <!-- Awalan saiful  -->
+  <button id="open-modal" class="btn btn-warning rounded-circle" title="join reseller">
+    <i class="fa-regular fa-hand fa-xl"></i>
+  </button>
+
+  <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">MAU DAPAT CUAN TAMBAHAN??</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="https://www.gambaranimasi.org/data/media/100/animasi-bergerak-uang-duit-0048.gif"
+            alt="Gambar Animasi" id="gambar-animasi">
+          <div id="teks-keuntungan">
+            <p>Yuk gabung <span style="color: #FF3333">reseller</span> ArchovvShop:</p>
+            <ul>
+              <li>Potongan harga khusus untuk reseller.</li>
+              <li>Dukungan pemasaran dan promosi produk.</li>
+              <li>Akses ke koleksi keychain terbaru.</li>
+              <li><br></li>
+            </ul>
+            <a href="https://youtu.be/aSQ91CDTVUM?si=GxLdP3BnhuIK0Dzo" type="button" class="button btn-hero" target="_blank" title="link linktr">Tertarik...</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Akhiran saiful -->
+
+  <!-- Awalan saiful assist salsabila -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="">FestivalAntasari24</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#hero">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#product">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonial">Testimonial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#kontak">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero" class="hero">
+    <div class="container">
+      <h1 class=".font-large" data-aos="fade-down-right">Selamat Datang di <span id="typing-text"></span><span id="cursor">|</span></h1>
+      <p class=".font-medium" data-aos="zoom-in-down">Temukan berbagai pilihan keychain dan Aksesoris dengan kualitas terbaik. <br>
+        Dapatkan penawaran eksklusif dan pengalaman berbelanja yang luar biasa.</p>
+      <a href="#about" type="button" class="button btn-hero" data-aos="fade-up-right">Get Started</a>
+    </div>
+  </section>
+  <!-- Akhiran saiful assist salsabila -->
+
+  <!-- Awalan salma -->
+  <section id="about">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-6" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+          <h1 class="section-heading">Tentang Kami</h1>
+          <p class="section-deskripsi">
+            FestivalAntasari24 adalah sebuah <span class="italic-foreign">stand yang menjual</span> <span class="italic-foreign">keychain</span>
+            yang berinovasi dalam menciptakan <span class="italic-foreign">keychain</span> dengan kualitas premium dan
+            harga
+            yang terjangkau.
+          </p>
+          <p class="section-deskripsi">
+            Kami menyediakan lebih dari 40 <span class="italic-foreign">variant</span> <span
+              class="italic-foreign">keychain</span>, dengan berbagai jenis character, untuk memenuhi beragam
+            selera
+            konsumen kami. Banyak varian <span class="italic-foreign">keychain</span> kami disukai oleh anak muda, yang
+            merupakan pangsa pasar utama kami.
+          </p>
+          <p class="section-deskripsi">
+            Kami memiliki <span class="italic-foreign">outlet center</span> di UIN Antasari, sehingga
+            memudahkan
+            konsumen dan <span class="italic-foreign">reseller</span> untuk memesan langsung.
+          </p>
+        </div>
+        <div class="col-lg-6" data-aos="zoom-in"
+        data-aos-anchor-placement="center-bottom">
+          <img id="dynamicImage" src="" alt="Gambar Toko" class="img-fluid rounded-circle">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Akhiran salma -->
+
+  <!-- Awalan saiful -->
+  <section id="services">
+    <div class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Layanan Kami</h2>
+            <p class="section-deskripsi">Ini adalah berbagai layanan yang kami tawarkan:</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 text-center" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <div class="service-bg-card1 service-box">
+              <i class="fas fa-shop fa-4x text-primary mb-4"></i>
+              <h3 class="mb-3">Offline Store</h3>
+              <p class="text-muted">Kunjungi toko fisik kami & lihat produk secara langsung sebelum membeli.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 text-center" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <div class="service-bg-card1 service-box">
+              <i class="fas fa-shipping-fast fa-4x text-primary mb-4"></i>
+              <h3 class="mb-3">Cash On Delivery (COD)</h3>
+              <p class="text-muted">Bayar pesanan Anda secara tunai saat pesanan diantarkan ke alamat Anda.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 text-center" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <div class="service-bg-card1 service-box">
+              <i class="fas  fa-handshake fa-4x text-primary mb-4"></i>
+              <h3 class="mb-3">Marketing Online</h3>
+              <p class="text-muted">Tingkatkan visibilitas produk dengan pemasaran online kami.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="product" class="product">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Produk Kami</h2>
+        <p>Berikut adalah beragam produk yang kami tawarkan:</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <ul id="product-flters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-roll-on">keychain</li>
+            <li data-filter=".filter-spray">Photocard</li>
+            <li data-filter=".filter-pocket-spray">Nendroid</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row product-container">
+
+        <div class="col-lg-4 col-md-6 product-item filter-roll-on" data-aos="zoom-in" data-aos-delay="200">
+          <div class="product-wrap">
+            <figure>
+              <img src="./assets/images/produk/ABSTAND - Vtuber Acrylic Schlüsselanhänger, Nijisanji EN, Luxiem, Noctyx, VShojo, Ironmouse, K9Kuro, Shxtou, Unnämed, U-san, Glitter Epoxy Schlüsselanhänger.jpeg" class="img-fluid" alt="">
+            </figure>
+
+            <div class="product-info">
+              <h4 class="product-text-style-4"><a href="#">Keychain</a></h4>
+              <span class="bold">Harga:</span><br>Mulai Rp 5.000 - 15.000<br>
+              <span class="bold">Produk:</span><br>Temukan keunikan dan gaya dalam setiap detil dengan Keychain Akrilik kami! 
+              Dibuat dari bahan akrilik berkualitas tinggi, keychain ini tidak hanya ringan dan tahan lama, 
+              tetapi juga memiliki desain yang menarik dan berwarna cerah..<br>
+              <span class="bold">Kelebihan Produk:</span><br>Material Berkualitas: Terbuat dari akrilik yang kuat dan tahan lama, menjamin keychain ini tidak mudah patah atau pecah.
+              Desain Menarik: Tersedia dalam berbagai desain dan warna, ideal untuk mengekspresikan kepribadian Anda.
+              Fungsionalitas: Cocok untuk menggantung kunci, ID, atau sebagai aksesori tas.
+              Mudah Dibersihkan: Permukaan akrilik yang halus membuatnya mudah dibersihkan dan selalu terlihat baru. <br>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 product-item filter-pocket-spray" data-aos="zoom-in" data-aos-delay="400">
+          <div class="product-wrap">
+            <figure>
+              <img src="./assets/images/produk/pov you are bread.jpeg" class="img-fluid" alt="">
+            </figure>
+
+            <div class="product-info">
+              <h4 class="product-text-style-4"><a href="#">Nendroid</a></h4>
+              <span class="bold">Harga:</span><br>Mulai Rp 20.000 - 30.000<br>
+              <span class="bold">Produk:</span><br>Perkenalkan Nendroid – koleksi figur mini yang menggemaskan dan penuh karakter!
+              Dikenal karena desainnya yang unik dan detail yang presisi,
+              Nendroid adalah pilihan sempurna bagi para penggemar anime, manga, dan budaya pop.<br>
+              <span class="bold">Kelebihan Produk:</span><br>Desain Ikonik: Setiap Nendroid hadir dengan karakteristik wajah yang ekspresif dan proporsi tubuh yang lucu, membuatnya sangat menggemaskan.
+              Aksesori Variatif: Dilengkapi dengan berbagai aksesori dan bagian tambahan, memungkinkan Anda untuk mengubah pose dan ekspresi sesuai keinginan.
+              Kualitas Tinggi: Dibuat dari bahan PVC berkualitas, menjamin daya tahan dan detail yang tajam.
+              Ukuran Ideal: Dengan tinggi sekitar 10 cm, Nendroid mudah dipamerkan di meja, rak, atau dalam koleksi Anda.<br>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 product-item filter-roll-on" data-aos="zoom-in" data-aos-delay="600">
+          <div class="product-wrap">
+            <figure>
+              <img src="./assets/images/produk/Dokibird vtuber 2_5_ inch double sided charm keychain.jpeg" class="img-fluid" alt="">
+            </figure>
+
+            <div class="product-info">
+              <h4 class="product-text-style-4"><a href="#">Keychain</a></h4>
+              <span class="bold">Harga:</span><br>Mulai Rp 5.000 - 15.000<br>
+              <span class="bold">Produk:</span><br>Temukan keunikan dan gaya dalam setiap detil dengan Keychain Akrilik kami! 
+              Dibuat dari bahan akrilik berkualitas tinggi, keychain ini tidak hanya ringan dan tahan lama, 
+              tetapi juga memiliki desain yang menarik dan berwarna cerah..<br>
+              <span class="bold">Kelebihan Produk:</span><br>Material Berkualitas: Terbuat dari akrilik yang kuat dan tahan lama, menjamin keychain ini tidak mudah patah atau pecah.
+              Desain Menarik: Tersedia dalam berbagai desain dan warna, ideal untuk mengekspresikan kepribadian Anda.
+              Fungsionalitas: Cocok untuk menggantung kunci, ID, atau sebagai aksesori tas.
+              Mudah Dibersihkan: Permukaan akrilik yang halus membuatnya mudah dibersihkan dan selalu terlihat baru. <br>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 product-item filter-spray" data-aos="zoom-in" data-aos-delay="200">
+          <div class="product-wrap">
+            <figure>
+              <img src="./assets/images/produk/download.jpeg" class="img-fluid" alt="">
+            </figure>
+
+            <div class="product-info">
+              <h4 class="product-text-style-4"><a href="#">Photocard</a></h4>
+              <span class="bold">Harga:</span><br>Mulai Rp 20.000 - 40.000<br>
+              <span class="bold">Produk:</span><br>Hadiahkan diri Anda atau orang terkasih dengan Photocard Kualitas Terbaik kami! 
+              Dibuat dengan teknologi cetak terkini, setiap photocard dirancang untuk memberikan detail yang tajam dan warna yang hidup, 
+              menjadikannya koleksi yang sempurna untuk para penggemar dan kolektor.<br>
+              <span class="bold">Kelebihan Produk:</span><br>Kualitas Cetak Superior: Menggunakan tinta berkualitas tinggi untuk menghasilkan gambar yang jernih dan cerah, sehingga setiap detail terlihat menakjubkan.<br>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 product-item filter-pocket-spray" data-aos="zoom-in" data-aos-delay="400">
+          <div class="product-wrap">
+            <figure>
+              <img src="./assets/images/produk/teto.jpeg" class="img-fluid" alt="">
+            </figure>
+
+            <div class="product-info">
+              <h4 class="product-text-style-4"><a href="#">Nendroid</a></h4>
+              <span class="bold">Harga:</span><br>Mulai Rp 20.000 - 30.000<br>
+              <span class="bold">Produk:</span><br>Perkenalkan Nendroid – koleksi figur mini yang menggemaskan dan penuh karakter!
+              Dikenal karena desainnya yang unik dan detail yang presisi,
+              Nendroid adalah pilihan sempurna bagi para penggemar anime, manga, dan budaya pop.<br>
+              <span class="bold">Kelebihan Produk:</span><br>Desain Ikonik: Setiap Nendroid hadir dengan karakteristik wajah yang ekspresif dan proporsi tubuh yang lucu, membuatnya sangat menggemaskan.
+              Aksesori Variatif: Dilengkapi dengan berbagai aksesori dan bagian tambahan, memungkinkan Anda untuk mengubah pose dan ekspresi sesuai keinginan.
+              Kualitas Tinggi: Dibuat dari bahan PVC berkualitas, menjamin daya tahan dan detail yang tajam.
+              Ukuran Ideal: Dengan tinggi sekitar 10 cm, Nendroid mudah dipamerkan di meja, rak, atau dalam koleksi Anda.<br>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 product-item filter-roll-on" data-aos="zoom-in" data-aos-delay="600">
+          <div class="product-wrap">
+            <figure>
+              <img src="./assets/images/produk/Hololive Vtuber Hoshimachi Suisei Fan-made Acryl-Schlüsselanhänger mit HOLO-Finish.jpeg" class="img-fluid" alt="">
+            </figure>
+
+            <div class="product-info">
+              <h4 class="product-text-style-4"><a href="#">Keychain</a></h4>
+              <span class="bold">Harga:</span><br>Mulai Rp 5.000 - 15.000<br>
+              <span class="bold">Produk:</span><br>Temukan keunikan dan gaya dalam setiap detil dengan Keychain Akrilik kami! 
+              Dibuat dari bahan akrilik berkualitas tinggi, keychain ini tidak hanya ringan dan tahan lama, 
+              tetapi juga memiliki desain yang menarik dan berwarna cerah..<br>
+              <span class="bold">Kelebihan Produk:</span><br>Material Berkualitas: Terbuat dari akrilik yang kuat dan tahan lama, menjamin keychain ini tidak mudah patah atau pecah.
+              Desain Menarik: Tersedia dalam berbagai desain dan warna, ideal untuk mengekspresikan kepribadian Anda.
+              Fungsionalitas: Cocok untuk menggantung kunci, ID, atau sebagai aksesori tas.
+              Mudah Dibersihkan: Permukaan akrilik yang halus membuatnya mudah dibersihkan dan selalu terlihat baru. <br>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 product-item filter-spray" data-aos="zoom-in" data-aos-delay="200">
+          <div class="product-wrap">
+            <figure>
+              <img src="./assets/images/produk/Yae Miko (Genshin Impact)🩷.jpeg" class="img-fluid" alt="">
+            </figure>
+
+            <div class="product-info">
+              <h4 class="product-text-style-4"><a href="#">Photocard</a></h4>
+              <span class="bold">Harga:</span><br>Mulai Rp 20.000 - 40.000<br>
+              <span class="bold">Produk:</span><br>Hadiahkan diri Anda atau orang terkasih dengan Photocard Kualitas Terbaik kami! 
+              Dibuat dengan teknologi cetak terkini, setiap photocard dirancang untuk memberikan detail yang tajam dan warna yang hidup, 
+              menjadikannya koleksi yang sempurna untuk para penggemar dan kolektor.<br>
+              <span class="bold">Kelebihan Produk:</span><br>Kualitas Cetak Superior: Menggunakan tinta berkualitas tinggi untuk menghasilkan gambar yang jernih dan cerah, sehingga setiap detail terlihat menakjubkan.<br>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 product-item filter-spray" data-aos="zoom-in" data-aos-delay="400">
+          <div class="product-wrap">
+            <figure>
+              <img src="./assets/images/produk/Человек-бензопила, chainsaw man💛.jpeg" class="img-fluid" alt="">
+            </figure>
+
+            <div class="product-info">
+              <h4 class="product-text-style-4"><a href="#">Photocard</a></h4>
+              <span class="bold">Harga:</span><br>Mulai Rp 20.000 - 40.000<br>
+              <span class="bold">Produk:</span><br>Hadiahkan diri Anda atau orang terkasih dengan Photocard Kualitas Terbaik kami! 
+              Dibuat dengan teknologi cetak terkini, setiap photocard dirancang untuk memberikan detail yang tajam dan warna yang hidup, 
+              menjadikannya koleksi yang sempurna untuk para penggemar dan kolektor.<br>
+              <span class="bold">Kelebihan Produk:</span><br>Kualitas Cetak Superior: Menggunakan tinta berkualitas tinggi untuk menghasilkan gambar yang jernih dan cerah, sehingga setiap detail terlihat menakjubkan.<br>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 product-item filter-pocket-spray" data-aos="zoom-in" data-aos-delay="600">
+          <div class="product-wrap">
+            <figure>
+              <img src="./assets/images/produk/Nendoroid Synthesizer V AI Kasane Teto Synthesizer V AI Ver_.jpeg" class="img-fluid" alt="">
+            </figure>
+
+            <div class="product-info">
+              <h4 class="product-text-style-4"><a href="#">Nendroid</a></h4>
+              <span class="bold">Harga:</span><br>Mulai Rp 20.000 - 30.000<br>
+              <span class="bold">Produk:</span><br>Perkenalkan Nendroid – koleksi figur mini yang menggemaskan dan penuh karakter!
+              Dikenal karena desainnya yang unik dan detail yang presisi,
+              Nendroid adalah pilihan sempurna bagi para penggemar anime, manga, dan budaya pop.<br>
+              <span class="bold">Kelebihan Produk:</span><br>Desain Ikonik: Setiap Nendroid hadir dengan karakteristik wajah yang ekspresif dan proporsi tubuh yang lucu, membuatnya sangat menggemaskan.
+              Aksesori Variatif: Dilengkapi dengan berbagai aksesori dan bagian tambahan, memungkinkan Anda untuk mengubah pose dan ekspresi sesuai keinginan.
+              Kualitas Tinggi: Dibuat dari bahan PVC berkualitas, menjamin daya tahan dan detail yang tajam.
+              Ukuran Ideal: Dengan tinggi sekitar 10 cm, Nendroid mudah dipamerkan di meja, rak, atau dalam koleksi Anda.<br>
+            </div>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Akhiran saiful -->
+
+  <!-- Awalan aan -->
+  <section id="testimonial">
+    <div class="slide-container swiper">
+      <div class="section-title">
+        <h2>Testimonial</h2>
+      </div>
+      <div class="slide-content">
+        <div class="card-wrapper swiper-wrapper">
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay" id="overlay-1"></span>
+
+              <div class="card-image">
+                <img src="./assets/images/testimoni/download.jpeg" alt="" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Costumer 1</h2>
+              <p class="coment"><sup><i class="fa fa-quote-left"></i></sup>&emsp; Udah pernah nyobain beli di toko lain,
+                tapi kaget banget ternyata disini harganya lebih murah!!. hehehe😁😉&emsp;<sup><i
+                    class="fa fa-quote-right"></i></sup></p>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay" id="overlay-2"></span>
+
+              <div class="card-image">
+                <img src="./assets/images/testimoni/idk why I made this.jpeg" alt="" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Costumer 2</h2>
+              <p class="coment"><sup><i class="fa fa-quote-left"></i></sup>&emsp; Layanan cepat dan tepat waktu, sangat
+                puas dengan pelayanannya.😎😎&emsp;<sup><i class="fa fa-quote-right"></i></sup></p>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay" id="overlay-3"></span>
+
+              <div class="card-image">
+                <img src="./assets/images/testimoni/⚰️.jpeg" alt="" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Costumer 3</h2>
+              <p class="coment"><sup><i class="fa fa-quote-left"></i></sup>&emsp; Produknya sangat bagus dan
+                berkualitas, rekomendasi buat yang ingin beli. 😊😊&emsp;<sup><i class="fa fa-quote-right"></i></sup>
+              </p>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay" id="overlay-4"></span>
+
+              <div class="card-image">
+                <img src="./assets/images/testimoni/︴⌗ huo huo icon ⊹˚_.jpeg" alt="" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Costumer 4</h2>
+              <p class="coment"><sup><i class="fa fa-quote-left"></i></sup>&emsp;Saya sudah order berulang kali di
+                layanan web hosting ini, tidak pernah ada kecewa, apalagi support yang sangat cepat dan
+                ramah.😊😍&emsp;<sup><i class="fa fa-quote-right"></i></sup></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-next swiper-navBtn"></div>
+      <div class="swiper-button-prev swiper-navBtn"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  <!-- Akhiran aan -->
+
+  <!-- Awalan salsabila -->
+  <section id="faq" class="faq">
+    <div class="container">
+      <div class="section-title">
+        <h2>FAQ</h2>
+        <p>Berikut adalah pertanyaan yang sering ditanyakan oleh pelanggan :</p>
+      </div>
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="text-style-1 accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="false" aria-controls="collapseOne">
+              Apa bahan yang digunakan untuk membuat keychain akrilik ini?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="text-style-1 accordion-body">
+              <strong>Keychain kami</strong> terbuat dari akrilik berkualitas tinggi yang tahan lama dan ringan.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="text-style-1 accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Apakah keychain ini tersedia dalam berbagai desain?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="text-style-1 accordion-body">
+              <strong>Ya</strong> kami menawarkan berbagai desain dan warna yang menarik untuk dipilih.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="text-style-1 accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Apa yang membedakan photocard ini dari yang lain?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="text-style-1 accordion-body">
+              <strong>Photocard kami dicetak dengan teknologi terkini</strong>, menggunakan tinta berkualitas tinggi untuk menghasilkan gambar yang jernih dan cerah.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="text-style-1 accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Apakah photocard ini tahan lama?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample">
+            <div class="text-style-1 accordion-body">
+              <strong>Tentu saja</strong> photocard ini terbuat dari kertas premium yang tidak mudah pudar dan tahan lama
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button class="text-style-1 accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              Bagaimana cara merawat Nendroid agar tetap dalam kondisi baik?
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+            data-bs-parent="#accordionExample">
+            <div class="text-style-1 accordion-body">
+              <strong>impan Nendroid di tempat yang sejuk dan kering</strong> jauh dari sinar matahari langsung, dan bersihkan dengan kain lembut jika diperlukan.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Akhiran salsabila -->
+
+  <!-- Awalan rajendra -->
+
+  <section id="location">
+    <div class="section-title">
+      <h2>Temukan Lokasi Kami</h2>
+      <p>Kami menyediakan peta lokasi toko beserta informasi kontak yang dapat Anda hubungi:</p>
+    </div>
+    <div class="container mt-5">
+      <div class="row rounded-3 border">
+        <div class="col-md-5 m-0 p-0">
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.072543826791!2d114.61425517505452!3d-3.3322551966425227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de42155037bca5d%3A0x76dc0655f34a797c!2sUniversitas%20Islam%20Negeri%20Antasari%20Banjarmasin%20-%20Kampus%20I!5e0!3m2!1sid!2sid!4v1730311540604!5m2!1sid!2sid"
+              width="100%" height="400px" frameborder="0" style="border: 0" title="maps" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-md-7 m-0 p-3 keterangan-maps">
+          <div class="contact-info">
+            <div class="row align-items-center">
+              <div class="col-12">
+                <h3><b><u>Contact Info</u></b></h3>
+                <div class="icon-and-text">
+                  <i class="bi bi-geo-alt-fill" style="font-size: 30px; color: red; margin-right: 10px;"></i>
+                  <p class="alamat"><b>ADDRESS:</b>Jl. A. Yani No.Km.4 5, RW.5, Kebun Bunga, Kec. Banjarmasin Tim., Kota Banjarmasin, Kalimantan Selatan 70235</p>
+                </div>
+                <div class="icon-and-text">
+                  <div class="telephone-icon">
+                    <i class="bi bi-telephone-fill"
+                      style="font-size: 30px; color: rgb(0, 0, 0); margin-right: 10px;"></i>
+                    <p class="telp"><b>Phone:</b> 05113252829</p>
+                  </div>
+                </div>
+                <div class="icon-and-text">
+                  <div class="envelope-icon">
+                    <i class="bi bi-envelope" style="font-size: 30px; color: rgb(0, 0, 0); margin-right: 10px;"></i>
+                    <p class="envelop"><b>Email:</b> uinantasari@gmail.com</p>
+                  </div>
+                </div>
+                <div class="social-links">
+                  <a href="https://www.instagram.com/uinantasaribjm_official?igsh=MXpjeHVrMG1rNmps" title="link instagram" target="_blank"><i
+                      class="fab fa-instagram" style="color: #000000;"></i></a>
+                  <a href="https://api.whatsapp.com/send/?phone=6287830614075&text&type=phone_number&app_absent=0" title="link whatsapp"
+                    target="_blank"><i class="fab fa-whatsapp" style="color: #000000;"></i></a>
+                  <a href="https://shopee.co.id/buyer/login?next=https%3A%2F%2Fshopee.co.id%2Fmerchtrove%3Fuls_trackid%3D514n3it300ls%26utm_content%3DUkdrV2FCUuW5aZBTj7D3yvn5D4K" title="link shopee" target="_blank"><i
+                      class="fa fa-store" style="color: #000000;"></i></a>
+                  <a href="https://github.com/Ilyaa-OMG/UMKM" title="link github" target="_blank"><i class="fab fa-github"
+                      style="color: #000000;"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="kontak">
+    <div class="f-item-con">
+      <div class="app-info">
+        <div class="footer-title">Company</div>
+        <ul>
+          <li><a style="text-decoration: none;" href="#about">About Us</a></li>
+          <li><a style="text-decoration: none;" href="#services">Our Service</a></li>
+          <li><a style="text-decoration: none;" href="#product">Product</a></li>
+          <li><a style="text-decoration: none;" href="#testimonial">Testimonials</a></li>
+        </ul>
+      </div>
+      <div class="useful-links">
+        <div class="footer-title">Get Help</div>
+        <ul>
+          <li><a style="text-decoration: none;" href="#faq">FAQ</a></li>
+          <li><a style="text-decoration: none;" href="#">Feedback</a></li>
+          <li><a style="text-decoration: none;" href="#">Report an Issue / Bug</a></li>
+        </ul>
+      </div>
+      <div class="g-i-t">
+        <div class="footer-title">CONTACT US</div>
+        <form action="/" method="post" class="space-y-2" onsubmit="sendWhatsAppMessage(event)">
+          <input type="text" name="g-name" class="g-inp" id="g-name" placeholder='Name' />
+          <input type="email" name="g-email" class="g-inp" id="g-email" placeholder='Email' />
+          <textarea type="text" name="g-msg" class="g-inp h-40 resize-none" id="g-msg"
+            placeholder='Message...'></textarea>
+          <button type="submit" class='f-btn'>Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class='cr-con'>Copyright &copy; 2023 | Made by Eyota</div>
+  </footer>
+  <!-- Akhiran rajendra -->
+
+  <!-- Script Bootstrap -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script> -->
+  <script src="bootstrap-5.3.2/dist/js/bootstrap.bundle.js"></script>
+  <!-- Script AOS Animate -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <!-- Swiper JS -->
+  <!-- <script src="./assets/js/swiper-bundle.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.6/swiper-bundle.min.js"></script>
+  <!--Sweet alert update by Rajendra-->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7/dist/sweetalert2.all.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- My Script -->
+    <script src="./assets/js/scripts.js"></script>
+</body>
+
+</html>
